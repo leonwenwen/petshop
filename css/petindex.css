@@ -1,0 +1,207 @@
+.navbar-default{
+    background-color: #807b74;
+    border: none;
+}
+.mynav-ul{
+    margin-left: 250px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+.nav > li > a{
+    padding: 10px 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*隐藏导航的背景颜色*/
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+}
+/*隐藏导航的高度*/
+.navbar-toggle .icon-bar{
+    height: 3px;
+    border-radius:0px;
+}
+.navbar-toggle{
+    border: 0px solid transparent;
+    border-radius:0px;
+}
+/*鼠标移入时的隐藏导航背景颜色*/
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+/*鼠标移出nav导航时的 隐形导航的背景颜色*/
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+    background-color:transparent;
+}
+.banner-text{
+    border-bottom: 5px solid white;
+    border-top: 5px solid white ;
+}
+.carousel-indicators .active{
+    background-color: white;
+}
+.carousel-control{
+    height: 60px;
+    width: 30px;
+    margin-top: -30px;
+    top:50%;
+    background-color: #b2b2b2;
+}
+.jumbotron-text{
+    color:#807b74;
+}
+.jumbotron{
+    background-color:white;
+}
+#aBout{
+    background-color: #f2f0ec;
+    padding:20px 0px;
+}
+.petbag-imgbox,.dish-box,.pettools{
+    display: none;
+}
+#dish{
+    background-color:#1f2a36;
+    padding:20px 0px;
+}
+.dish-h1,.aBout-h1{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.aBout-h1{
+    color:#666666;
+}
+.dish-img{
+    padding-bottom:30px;
+    text-align: center;
+}
+.dish-img>img{
+    margin: 0 auto;
+}
+.aBout-imgbox{
+    padding-bottom:30px;
+    text-align: center;
+    overflow: hidden;
+}
+.aBout-img{
+    background-color:white;
+    border-radius:20px;
+    margin: 0 auto;
+    border:8px solid white;
+}
+.aBout-imgbox:after{
+    position: absolute;
+    top: 0px;
+    left:40px;
+    width: 80%;
+    height: 90%;
+    background-color:rgba(255,255,255,.5);
+    color:#666666;
+    content: "Buy Now";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 38%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: right top;
+    -webkit-transition: all .3s ease-in-out;
+    border-radius:25px;
+}
+.aBout-imgbox:hover:after {
+    -webkit-transform: rotate(0deg);
+}
+.ba-black{
+    background-color: black;
+    z-index:10 ;
+}
+#ourevents,#contactus{
+    background-image: url("../img/three.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    color: white;
+    font-weight: 600;
+}
+.ourevents-img{
+    padding: 50px 0px;
+}
+.btn-default, .btn-primary{
+    color:white;
+    background-color:#807b74;
+    border-color:#807b74;
+}
+.btn-default:hover,.btn-primary:hover{
+    opacity: .8;
+    background-color:#807b74;
+    border-color:#807b74;
+}
+.btn-default:active,
+.btn-default.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-default {
+    color: white;
+    background-color:#807b74;
+    border-color:#807b74;
+}
+.ourevents-button{
+    text-align: center;
+}
+#testimonials{
+    background-color: #f2f0ec;
+    color: white;
+    padding: 30px 0px;
+}
+.media-heading{
+    /*  left: 5%;
+      right:5%;*/
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:15%;
+}
+.media-body>p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#contactus{
+    background-image:url("../img/kou2.jpg");
+    font-weight: 100;
+}
+footer{
+    background-color:#f2f0ec;
+    padding: 10px 0px;
+}
+.carousel-caption{
+    -webkit-transform:scale(0,0);
+    /*-o-transform:scale(1,1);*/
+}
+.features-media{
+    /*border: 1px solid royalblue;*/
+    padding:30px 0px 30px 0px;
+}
+a{
+    color: #807b74;
+}
+@media (max-width: 768px){
+    .mynav-ul{
+        margin-left:0px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .carousel-caption{
+        right:30%;
+        bottom:30%;
+        left:30%;
+        padding-top:0px;
+        padding-bottom:0px;
+        font-weight:100;
+    }
+    .petbag-imgbox,.dish-box,.pettools{
+        display:block;
+    }
+}
